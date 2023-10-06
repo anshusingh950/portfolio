@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Poppins:ital,wght@1,100;1,300&family=Roboto+Condensed:wght@300&family=Tektur&family=Ubuntu:wght@300&display=swap');
+* {
+   margin: 0px;
+   padding: 0px;
+}
+.cl1 {
+    
+    display: flex;
+   
+}
+.navbar {
+   width: 150px;
+   background: linear-gradient(to bottom right,rgb(219, 57, 57),rgba(0, 0, 0, 0.963));
+   display: flex;
+   align-items:flex-start;
+   justify-content:center;
+   
+}
+.navbar ul {
+   list-style: none;
+   color: beige;
+   transition: 1s linear;
+}
+.navbar ul li {
+   padding-top: 47px;
+}
+.navbar ul li a {
+   display: inline-block;
+   width: 109px;
+   padding: 4px ;
+   font-weight: bolder;
+   color: rgb(222, 10, 179);
+   background-color: rgb(220, 230, 230);
+   text-decoration: none;
+   border-radius: 8px;
+   transition:1s ease-in;
+}
+.navbar ul li a:hover {
+   background-color: rgb(245, 172, 15);
+   color: black;
+   transition:.2s ease-in;
+   box-shadow: 0px 0px 5px 5px yellow;          
+
+}
+.lit1{
+   padding-top: 0px;
+}
+.upper{
+   /* height: 52px; */
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid red;
+   backdrop-filter: blur(8px);
+   color: azure;
+   border: 2px solid green;
+}
+.upper img{
+    margin-right: 10%;
+   width: 3.5%;
+
+}
+.upper h2{
+   margin-left: 10%;
+   margin-top: 6px;
+   background: linear-gradient(to right,rgb(224, 22, 22),rgb(252, 252, 252));
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 2rem;
+   font-family: 'Ubuntu', sans-serif; 
+}
+.main1{
+    overflow: hidden;
+   width: 100%;
+   padding-bottom: 3%;
+   background-image: url(pics2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.infoctr {
+    padding: 3% 5% 0% 4%;
+   /* height: 350px; */
+   width: 85%;
+   margin: auto;
+   margin-top: 25px;
+   display: flex;
+   justify-content: space-around;
+   backdrop-filter: blur(8px);
+   color: azure;
+   border: 2px solid #673ab780;
+    border-radius: 5%;
+}
+
+.namepic img {
+   margin-top: 10px;
+   margin-left: 30%;
+   width: 66%;
+}
+
+.nameinfo {
+   margin-bottom: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Ubuntu', sans-serif;
+
+}
+.hello{
+   padding-top: 8px;
+   font-size: 1.5rem;
+}
+.name{
+   padding-top: 10px;
+   font-size: 40px;
+   font-weight: bolder;
+   background: linear-gradient(rgb(255, 77, 0),rgb(47, 248, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.about{
+   padding-top: 8px;
+   font-size:1.3rem;
+   background: linear-gradient(rgb(218, 210, 210),rgba(0, 255, 51, 0.808));
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.summ{
+   padding-top: 8px;
+   font-size:1rem;
+   font-weight: bolder;
+}
+.buttons button{
+   margin-top: 10px;
+   margin-left: 3px;
+   padding: 3.5px;
+   background:#f7d6b6 ;
+   border-radius:8px;
+   font-family: 'Tektur', cursive;
+   transition:.2s ease-in;
+
+}
+.buttons button:hover{
+   background-color: rgb(255, 255, 0);
+   color: orangered;
+   box-shadow: 0px 0px 5px 5px rgba(255, 234, 0, 0.616); 
+}
+.btnsh{
+   position: absolute;
+   z-index: 3;
+   left: 0px;
+   top: 0px;
+   height: 15px;
+   width: 15px;
+
+} 
+/* 
+PORTFOLIO ENDS 
+INTRO STARTS  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainin1 {
+    background-image: url(pics2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.mnh2 {
+    text-align: center;
+    /* font-family: 'Comfortaa', cursive; 
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tektur', cursive;*/
+    font-family: 'Ubuntu', sans-serif; 
+}
+.mh2 {
+    padding-bottom: 1%;
+
+}
+
+.mh2a {
+    padding-top: 2%;
+    padding-bottom: .5%;
+
+}
+.itctr {
+    margin: 3% 4%;
+    backdrop-filter: blur(8px);
+    color:#f8e91e;
+    border: 2px solid rgb(34, 77, 142);
+    border-radius: 5%;
+    padding: 3%;
+}
+.mninp{
+    text-justify: auto;
+    font-family:  'Poppins', sans-serif;
+    font-size: large;
+    color: #e1e6e5;
+}
+
+.skill {
+    display: flex;
+    height: 20px;
+    width: 75%;
+    margin-top: .3%;
+    border: 2px solid black;
+
+}
+
+.skillitem {
+    display: flex;
+    margin-top: 3%;
+    font-family: 'Tektur', cursive;
+
+}
+
+.slill1a {
+    height: 20px;
+    width: 75%;
+    background-color: aqua;
+   
+    /* animation: incr1 2s linear 0s 1 forwards ; */
+}
+
+.slill2a {
+    height: 20px;
+    width: 80%;
+    animation: incr2 2s linear 0s 1 forwards ;
+    background-color: aqua;
+}
+
+.slill3a {
+    height: 20px;
+    width: 66%;
+    background-color: aqua;
+    animation: incr3 2s linear 0s 1 forwards ;
+}
+
+.slill4a {
+    height: 20px;
+    width: 80%;
+    background-color: aqua;
+    animation: incr4 2s linear 0s 1 forwards ;
+}
+
+.slill5a {
+    height: 20px;
+    width: 60%;
+    background-color: aqua;
+    animation: incr5 2s linear 0s 1 forwards ;
+}
+
+.slill6a {
+    height: 20px;
+    width: 80%;
+    background-color: aqua;
+    animation: incr6 2s linear 0s 1 forwards ;
+
+}
+
+.sk1:hover {
+    background-color: #f90707;
+    transition: .5s linear;
+}
+
+.skill1 {
+    margin-left: 9%;
+}
+
+.skill2 {
+    margin-left: 10.6%;
+}
+
+.skill3 {
+    margin-left: 3.5%;
+}
+
+.skill4 {
+    margin-left: 10.3%;
+}
+
+.skill5 {
+    margin-left: 6.2%;
+}
+
+.skill6 {
+    margin-left: 10.4%;
+}
+@keyframes incr1{
+    from{
+        width:0%
+    }
+    to{
+        width: 85%;
+    }
+}
+@keyframes incr2{
+    from{
+        width:0%
+    }
+    to{
+        width:72%;
+    }
+}
+@keyframes incr3{
+    from{
+        width:0%
+    }
+    to{
+        width:66%;
+    }
+}
+@keyframes incr4{
+    from{
+        width:0%
+    }
+    to{
+        width:80%;
+    }
+}
+@keyframes incr5{
+    from{
+        width:0%
+    }
+    to{
+        width:60%;
+    }
+}
+@keyframes incr6{
+    from{
+        width:0%
+    }
+    to{
+        width:80%;
+    }
+}
+/* INTRO ENDS HERE  */
+/* project starts HERE  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainp1 {
+    width: 100%;
+    background-image: url(pics2.jpg);
+}
+
+.mainp1 h1 {
+    text-align: center;
+    background: linear-gradient( rgb(252, 248, 3), rgb(104, 252, 12));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.prctr{
+    margin: 5% 6% 5% 6%;
+    padding: 3% 5% 3% 4%;
+    color: rgb(237, 211, 14);
+    padding-left: 4%;
+    border: 2px solid grey;
+    border-radius: 3%;
+    backdrop-filter: blur(15px);
+    list-style-type: decimal-leading-zero;
+    font-size: 2rem;
+}
+
+
+
+.lip {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.dli {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tools {
+    font-size: 1.3rem;
+    /* font-weight: 450 !important; */
+}
+
+.det {
+    font-size: 1rem;
+    /* font-weight: 450 !important; */
+}
+/* 
+PROJECT ENDS HERE 
+CONTACT STARTS HERE  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainc1 {
+    width: 100%;
+    padding-bottom: 4%;
+    background-image:url(pics2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.mainc1 h1{
+    text-align: center;
+    font-family:  'Ubuntu', sans-serif;
+
+}
+.ctf{
+    margin-left: 15%;
+    margin-top: 4%;
+    padding-top: 4%;
+    background:transparent;
+    border: 2px solid rgba(128, 128, 128, 0.647);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    margin-right: 10%;
+}
+
+.mb-3{
+    padding-left:5%;
+    margin-top: 10px;
+    width: 25%;
+    
+}
+.mb-3 label{
+    display: inline-block;
+    width: 140%;
+    font-weight: bolder;
+}
+form{
+    padding-left: 140px;
+    
+    font-family: 'Tektur', cursive;
+}
+.form-text{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+/* .form-control{
+    height: 20%;
+} */
+.btn{
+    margin-left: 68px;
+    padding: 4px;
+    background-color: aqua;
+    border-radius: 4px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+}
+.btn:hover{
+    background-color: #de1376;
+    transition: 1s cubic-bezier(0.42, 0, 0.53, 0.57);
+    
+}
+.form-check{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+#isClient{
+    margin-right:10px;
+}
+/* CONTACT ENDS HERE 
+OTHERS START HERE  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainot1{
+
+    background-image: url(pics2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+
+}
+
+.otctr{
+    margin: 4% 4% 4% 4%;
+
+}
+.otctrdiv{
+    padding: 3% 2% 3% 7%;
+    border: 2px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 10%;
+   
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    /* font-family: 'Tektur', cursive; */
+    /* font-family: 'Ubuntu', sans-serif; */ ;
+    color: chartreuse;
+    background: linear-gradient(to right,red,#caff00);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+.oli{
+    background: linear-gradient(to right,rgb(70, 254, 3),#fbff00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.otctrdiv li{
+    font-size: 3vw;
+    background: linear-gradient(rgb(rgb(214, 10, 10)217, 0),rgba(55, 192, 21, 0.812));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.otctrdiv h2{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 6vw;
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+.otctrdiv li{
+    margin-bottom: 3%;
+
+}
+.bpc{
+    font-family: 'Tektur', cursive;
+}
+.bpn{
+    font-family: 'Roboto Condensed', sans-serif;
+}  
+
+@media  (max-width:500px) {
+    #cll1{
+        position: absolute;
+        z-index: 2;
+    }
+    
+}
+.active{
+    animation: incr1 2s linear 0s 1 forwards ;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY_PORTFOLIO</title>
+    <!-- GHgh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .btnsh{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: linear-gradient(red,yellow, pink ,blue,cyan);
+            padding: 4px;
+        }
+    </style>
+   
+</head>
+
+<body>
+    <button onclick="show()" class="btnsh"><<</button>
+
+    <div class="cl1">
+        <div class="navbar" id="cll1">
+
+
+            <div class="c2">
+                <ul>
+                    <li class="lit lit1"><a href="https://anshusingh950.github.io/portfolio/portfolio.html">GO HOME</a></li>
+                    <li class="lit"><a href="https://anshusingh950.github.io/portfolio/intro.html" >ABOUT@ME</a></li>
+                    <li class="lit"><a href="https://anshusingh950.github.io/portfolio/projects.html" >PROJECTS</a></li>
+                    <li class="lit"><a href=" https://anshusingh950.github.io/portfolio/contact.html">REACH@ME</a></li>
+                    <li class="lit"><a href=" https://anshusingh950.github.io/portfolio/others.html">OTHERS...</a></li>                    
+                </ul>
+            </div>
+        </div>
+        <main class="mainc1">
+            <div class="upper">
+                <h2 class="uph2">MY PORTFOLIO</h2>
+                <img src="im1.png" alt="">
+            </div>
+            <div class="ctf">
+            <h1>CONTACT ME FOR GENERAL ENQUIRIES</h1>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email_cl" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                  <input type="phone" class="form-control" id="phone_no">
+                </div>
+                <div id="emailHelp" class="form-text">We never share your email or phone with anyone else.</div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="isClient">
+                  <label class="form-check-label" for="isClient">I want you to work on a project with me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+        </main>
+    </div>
+    <script src="code.js"></script>
+
+</body>
+
+</html>
